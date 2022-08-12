@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Hendra",
+      "email": "hendra@nok.co.id",
+      "bidang": "RnD Monitoring"
+    },
+    {
+      "name": "sultan",
+      "email": "hendraarya23@gmail.com",
+      "bidang": "rndtr",
+      "id": 2
+    },
+    {
+      "name": "Hari",
+      "email": "hendraarya.nin@gmail.com",
+      "bidang": "FM",
+      "id": 3
+    }
+  ]
+}

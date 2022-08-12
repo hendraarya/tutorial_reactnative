@@ -1,0 +1,33 @@
+Installation Local API, use "JSON_Server"
+===============================================
+
+1. open command prompt --> masuk terlebih dahulu ke project react native kita
+   contoh : cd tutorhudoro
+
+2. ketik pada terminal :
+   url library : https://github-com.translate.goog/typicode/json-server?_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=op,sc
+   >> npm install -g json-server
+
+3. jika instalasi selesai, buat folder pada aplikasi React-Native kita, untuk menyimpan databasenya.
+   contoh : create folder "fakeAPI" --> create file "db.json".
+   a. save file ini di dalam db.json
+      {
+       "posts": [
+        { "id": 1, "title": "json-server", "author": "typicode" }
+        ],
+       "comments": [
+       { "id": 1, "body": "some comment", "postId": 1 }
+        ],
+       "profile": { "name": "typicode" }
+      }
+
+4. running Local API "JSON_server" dengan cara :
+   a. masuk ke directory json server pada aplikasi react native kita : cd fakeAPI
+   b. pada terminal :
+      >> json-server --watch db.json --port 3004   // pilih file db dan tentukan port yang akan kita gunakan, default port :3000
+
+5. untuk test database json server, dapat di test di aplikasi postman, dan masukkan url api samplenya.
+
+6. selesai
+
+
